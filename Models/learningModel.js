@@ -9,5 +9,5 @@ const learningModel = new mongoose.Schema({
         require:true
     }
 })
-const botData = mongoose.model('chatdatas',learningModel)
+const botData = mongoose.model('chatbotdata',learningModel)
 module.exports=botData;
